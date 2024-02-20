@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:crossbow",
+		  "functions": [
+		    {
+			  "function": "set_name",
+			  "name": "§r§4狩猎之弩"
+			},
+		    {
+		      "function": "set_lore",
+		      "lore": ["§6蕴含了狩猎女神的力量，虽然破旧不堪，但是可以一次射出三支箭矢！","§a可以被丢弃!","骗赞服开放日"]
+		    },
+		    {
+		      "function": "set_nbt",
+		      "tag": "{Charged:true,ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b},{id:\"minecraft:arrow\",Count:1b},{id:\"minecraft:arrow\",Count:1b}],Damage:464,PropCrossBow:1,Enchantments:[{id:\"minecraft:multishot\",lvl:3}]}"
+		    }
+		  ]
+		}
+		
+      ]
+    }
+  ]
+}

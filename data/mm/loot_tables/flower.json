@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:splash_potion",
+		  "functions": [
+		    {
+			  "function": "set_name",
+			  "name": "§r§d蔷薇精华"
+			},
+		    {
+			  "function": "set_count",
+			  "count": 2
+			},
+		    {
+		      "function": "set_lore",
+		      "lore": ["§6使用后回满生命值获得20点护盾值(跑毒用)","§a可以被丢弃!","骗赞服开放日"]
+		    },
+		    {
+		      "function": "set_nbt",
+		      "tag": "{PropMysteryPotion:1,CustomPotionColor:6737151,CustomPotionEffects:[{Id:6,Amplifier:254,Duration:20,ShowParticles:0b,ShowIcon:1},{Id:22,Amplifier:4,Duration:2000000,ShowParticles:0b,ShowIcon:1}]}"
+		    }
+		  ]
+		},
+		
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:splash_potion",
+		  "functions": [
+		    {
+			  "function": "set_name",
+			  "name": "§r§b璇清芳兰"
+			},
+		    {
+			  "function": "set_count",
+			  "count": 2
+			},
+		    {
+		      "function": "set_lore",
+		      "lore": ["§6使用后获得速度提升","§a可以被丢弃!","骗赞服开放日"]
+		    },
+		    {
+		      "function": "set_nbt",
+		      "tag": "{PropMysteryPotion:1,CustomPotionColor:5287167,CustomPotionEffects:[{Id:1,Amplifier:3,Duration:600,ShowIcon:1}]}"
+		    }
+		  ]
+		},
+		
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:splash_potion",
+		  "functions": [
+		    {
+			  "function": "set_name",
+			  "name": "§r§f蒲英之悬"
+			},
+		    {
+			  "function": "set_count",
+			  "count": 2
+			},
+		    {
+		      "function": "set_lore",
+		      "lore": ["§6使用后获得跳跃提升和缓降","§a可以被丢弃!","骗赞服开放日"]
+		    },
+		    {
+		      "function": "set_nbt",
+		      "tag": "{PropMysteryPotion:1,CustomPotionColor:16776165,CustomPotionEffects:[{Id:8,Amplifier:3,Duration:600,ShowIcon:1},{Id:28,Amplifier:3,Duration:600,ShowIcon:1}]}"
+		    }
+		  ]
+		}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{Unbreakable:1b,HideFlags:63,Iron_Chestplate:1}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": "§r§a铁胸甲"
+        },
+		{
+		  "function":"minecraft:set_lore",
+		  "lore": ["§f使其他幸存者知道你是他们的队友!"]
+		}
+      ],
+      "entries": [
+        {"type": "minecraft:item","name": "minecraft:iron_chestplate"}
+      ]
+    }
+  ]
+}

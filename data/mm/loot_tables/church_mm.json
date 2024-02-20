@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:totem_of_undying",
+		  "functions": [
+		    {
+			  "function": "set_name",
+			  "name": "§r§e不死庇护"
+			},
+		    {
+		      "function": "set_lore",
+		      "lore": ["§f可以免除一次致命伤害,并在场地内随机位置重生!","§c使用后消失","§a可以被丢弃!","骗赞服开放日"]
+		    },
+		    {
+		      "function": "set_nbt",
+		      "tag": "{PropGoldMedal:1}"
+		    }
+		  ]
+		},
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:lingering_potion",
+		  "functions": [
+		    {
+			  "function": "set_name",
+			  "name": "§r§a圣水"
+			},
+		    {
+			  "function": "set_count",
+			  "count": 2
+			},
+		    {
+		      "function": "set_lore",
+		      "lore": ["","§f只会对杀手产生负面效果!","§a可以被丢弃!","骗赞服开放日"]
+		    },
+		    {
+		      "function": "set_nbt",
+		      "tag": "{HideFlags:32,PropHolyPotion:1,Potion:\"minecraft:slow_falling\"}"
+		    }
+		  ]
+		}		
+      ]
+    }
+  ]
+}

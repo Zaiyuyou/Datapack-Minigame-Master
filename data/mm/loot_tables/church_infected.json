@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:lingering_potion",
+		  "functions": [
+		    {
+			  "function": "set_name",
+			  "name": "§r§a邪恶圣水"
+			},
+		    {
+			  "function": "set_count",
+			  "count": 2
+			},
+		    {
+		      "function": "set_lore",
+		      "lore": ["","§f扔出后让范围内的幸存者致盲","§a可以被丢弃!","骗赞服开放日"]
+		    },
+		    {
+		      "function": "set_nbt",
+		      "tag": "{HideFlags:32,PropHolyPotion:1,Potion:\"minecraft:weakness\"}"
+		    }
+		  ]
+		}		
+      ]
+    }
+  ]
+}

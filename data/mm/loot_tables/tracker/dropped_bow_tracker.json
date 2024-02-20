@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Tracker:1,id:'mm:dropped_bow_tracker',LodestoneTracked:0b,LodestoneDimension:\"minecraft:overworld\"}"
+            },
+	        {
+              "function": "minecraft:set_name",
+              "name": "§r§a弓追踪器"
+            },
+	        {
+              "function": "minecraft:set_lore",
+              "lore": ["§f指向最近的一把弓!"]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Item.tag.LodestonePos.Z",
+                  "target": "LodestonePos.Z",
+                  "op": "replace"
+                },
+                {
+                  "source": "Item.tag.LodestonePos.Y",
+                  "target": "LodestonePos.Y",
+                  "op": "replace"
+                },
+                {
+                  "source": "Item.tag.LodestonePos.X",
+                  "target": "LodestonePos.X",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

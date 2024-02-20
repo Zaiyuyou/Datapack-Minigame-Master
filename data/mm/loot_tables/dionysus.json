@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:splash_potion",
+		  "functions": [
+		    {
+			  "function": "set_name",
+			  "name": "§r§5此间风云"
+			},
+		    {
+			  "function": "set_count",
+			  "count": 2
+			},
+		    {
+		      "function": "set_lore",
+		      "lore": ["§6使用后可以飞升","§a可以被丢弃!","骗赞服开放日"]
+		    },
+		    {
+		      "function": "set_nbt",
+		      "tag": "{HideFlags:32,PropMysteryPotion:1,CustomPotionColor:11534591,CustomPotionEffects:[{Id:25,Amplifier:49,Duration:40,ShowParticles:0b,ShowIcon:1}]}"
+		    }
+		  ]
+		}		
+      ]
+    }
+  ]
+}

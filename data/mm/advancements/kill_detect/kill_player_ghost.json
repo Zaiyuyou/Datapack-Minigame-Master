@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "mm": {
+	  "trigger": "player_hurt_entity",
+	  "conditions": {
+	    "entity": {
+		  "nbt": "{Tags:[\"mm_ghost\",\"mm_player_ghost\"]}"
+		}
+	  }
+	}
+  },
+  "rewards": {
+    "function": "mm:game/game_events/kill_player_ghost"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{Unbreakable:1b,HideFlags:63,Outlaw_Chestplate:1,display:{color:11546150}}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": "§r§a逃犯胸甲"
+        },
+		{
+		  "function":"minecraft:set_lore",
+		  "lore": ["§f使其他逃犯知道你是他们的队友!"]
+		}
+      ],
+      "entries": [
+        {"type": "minecraft:item","name": "minecraft:leather_chestplate"}
+      ]
+    }
+  ]
+}

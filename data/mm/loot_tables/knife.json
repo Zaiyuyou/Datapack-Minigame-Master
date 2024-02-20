@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{Unbreakable:1b,HideFlags:63,Knife:1}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": "§r§a刀"
+        },
+		{
+		  "function":"minecraft:set_lore",
+		  "lore": ["§f使用你的刀杀死其他玩家!"]
+		},
+		{
+		  "function":"minecraft:set_attributes",
+		  "modifiers": [
+		  	{
+			  "name":"Knife",
+			  "attribute":"generic.attack_damage",
+			  "slot":"mainhand",
+			  "amount": 5,
+			  "operation":"addition"
+			},
+			{
+			  "name":"AttackSpeed",
+			  "attribute":"generic.attack_speed",
+			  "slot":"mainhand",
+			  "amount": 1024,
+			  "operation":"addition"
+			}
+		  ]
+		}
+      ],
+      "entries": [
+        {"type": "minecraft:item","name": "minecraft:iron_sword","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 1}}]},
+		{"type": "minecraft:item","name": "minecraft:golden_sword","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 2}}]},
+		{"type": "minecraft:item","name": "minecraft:diamond_sword","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 3}}]},
+		{"type": "minecraft:item","name": "minecraft:feather","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 4}}]},
+		{"type": "minecraft:item","name": "minecraft:stick","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 5}}]},
+		{"type": "minecraft:item","name": "minecraft:iron_shovel","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 6}}]},
+		{"type": "minecraft:item","name": "minecraft:stone_shovel","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 7}}]},
+		{"type": "minecraft:item","name": "minecraft:diamond_shovel","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 8}}]},
+		{"type": "minecraft:item","name": "minecraft:wooden_sword","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 9}}]},
+		{"type": "minecraft:item","name": "minecraft:stone_sword","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 10}}]},
+		{"type": "minecraft:item","name": "minecraft:wooden_axe","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 11}}]},
+		{"type": "minecraft:item","name": "minecraft:diamond_axe","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 12}}]},
+		{"type": "minecraft:item","name": "minecraft:diamond_hoe","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 13}}]},
+		{"type": "minecraft:item","name": "minecraft:shears","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 14}}]},
+		{"type": "minecraft:item","name": "minecraft:golden_pickaxe","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 15}}]},
+		{"type": "minecraft:item","name": "minecraft:sponge","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 16}}]},
+		{"type": "minecraft:item","name": "minecraft:apple","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 17}}],"functions": [{"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:knife\",lvl:0}]}"}]},
+		{"type": "minecraft:item","name": "minecraft:cookie","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 18}}]},
+		{"type": "minecraft:item","name": "minecraft:pumpkin_pie","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 19}}]},
+		{"type": "minecraft:item","name": "minecraft:salmon","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 20}}]},
+		{"type": "minecraft:item","name": "minecraft:dead_bush","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 21}}]},
+		{"type": "minecraft:item","name": "minecraft:blaze_rod","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 22}}]},
+		{"type": "minecraft:item","name": "minecraft:name_tag","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 23}}]},
+		{"type": "minecraft:item","name": "minecraft:carrot_on_a_stick","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 24}}]},
+		{"type": "minecraft:item","name": "minecraft:bone","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 25}}]},
+		{"type": "minecraft:item","name": "minecraft:carrot","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 26}}]},
+		{"type": "minecraft:item","name": "minecraft:golden_carrot","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 27}}]},
+		{"type": "minecraft:item","name": "minecraft:redstone_torch","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 28}}]},
+		{"type": "minecraft:item","name": "minecraft:rose_bush","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 29}}]},
+		{"type": "minecraft:item","name": "minecraft:redstone","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 30}}],"functions": [{"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:knife\",lvl:0}]}"}]},
+		{"type": "minecraft:item","name": "minecraft:glistering_melon_slice","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 31}}]},
+		{"type": "minecraft:item","name": "minecraft:prismarine_shard","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 32}}],"functions": [{"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:knife\",lvl:0}]}"}]},
+		{"type": "minecraft:item","name": "minecraft:tnt","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 33}}]},
+		{"type": "minecraft:item","name": "minecraft:cooked_beef","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 34}}]},
+		{"type": "minecraft:item","name": "minecraft:netherite_sword","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 35}}]},
+		{"type": "minecraft:item","name": "minecraft:netherite_shovel","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 36}}]},
+		{"type": "minecraft:item","name": "minecraft:quartz","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 37}}]},
+		{"type": "minecraft:item","name": "minecraft:bread","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 38}}]},
+		{"type": "minecraft:item","name": "minecraft:nether_star","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 39}}]},
+		{"type": "minecraft:item","name": "minecraft:brick","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 40}}]},
+		{"type": "minecraft:item","name": "minecraft:book","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 41}}]},
+		{"type": "minecraft:item","name": "minecraft:netherite_axe","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 42}}]},
+		{"type": "minecraft:item","name": "minecraft:fire_charge","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 43}}]},
+		{"type": "minecraft:item","name": "minecraft:sweet_berries","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 44}}]},
+		{"type": "minecraft:item","name": "minecraft:player_head","conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_knife_skin": 45}}],"functions": [{"function": "minecraft:fill_player_head","entity": "this"}]}
+      ]
+    }
+  ]
+}

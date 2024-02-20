@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{Pickup:0}"
+        }
+      ],
+      "entries": [
+        {"type": "minecraft:item","name": "minecraft:gold_ingot"}
+      ]
+    }
+  ]
+}

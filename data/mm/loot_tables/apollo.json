@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:lingering_potion",
+		  "functions": [
+		    {
+			  "function": "set_name",
+			  "name": "§r§a以太液体"
+			},
+		    {
+			  "function": "set_count",
+			  "count": 2
+			},
+		    {
+		      "function": "set_lore",
+		      "lore": ["","§f使得除使用者之外的玩家发光30S","§a可以被丢弃!","骗赞服开放日"]
+		    },
+		    {
+		      "function": "set_nbt",
+		      "tag": "{PropEtherPotion:1}"
+		    }
+		  ]
+		}		
+      ]
+    }
+  ]
+}

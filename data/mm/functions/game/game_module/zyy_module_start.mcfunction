@@ -1,0 +1,4 @@
+
+#喷气飞行
+execute if score mm_jet mm_settings matches 1 run item replace entity @a hotbar.7 with minecraft:lingering_potion{display:{Name:"[{\"text\":\"切换喷气模式\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Lore:["{\"text\":\"\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}","{\"text\":\"使用后切换自己的喷气飞行模式\",\"color\":\"green\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}","{\"text\":\"骗赞服开放日\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]},PropJetPotion:1} 1
+scoreboard objectives add mm_jet_mode dummy 

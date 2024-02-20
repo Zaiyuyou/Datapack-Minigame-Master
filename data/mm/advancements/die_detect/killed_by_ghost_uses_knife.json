@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "mm": {
+	  "trigger": "entity_hurt_player",
+	  "conditions": {
+	    "damage": {
+		  "source_entity": {
+		    "nbt": "{Tags:[\"mm_ghost\"]}"
+		  },
+		  "type": {
+		    "is_projectile": false
+	      }
+		}
+	  }
+	}
+  },
+  "rewards": {
+    "function": "mm:game/game_events/killed_by_ghost_uses_knife"
+  }
+}

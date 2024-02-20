@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "mm": {
+	  "trigger": "player_hurt_entity",
+	  "conditions": {
+	    "damage": {
+		  "type":{
+		    "is_projectile": true
+	      }
+		},
+	    "entity": {
+		  "distance": {
+	        "absolute": {
+		      "min": 0,
+			  "max": 0
+			}
+		  },
+		  "type": "minecraft:player"
+		}
+	  }
+	}
+  },
+  "rewards": {
+    "function": "mm:game/game_events/killed_by_self"
+  }
+}

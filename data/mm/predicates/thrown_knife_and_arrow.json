@@ -1,0 +1,19 @@
+{
+  "condition": "alternative",
+  "terms": [	  
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+  	    "nbt": "{Tags:[\"mm_thrown_knife\"]}"
+      }	  
+	},
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+  	    "type": "minecraft:arrow"
+      }	  
+	}	
+  ]
+}

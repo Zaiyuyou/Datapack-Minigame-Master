@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {"function": "minecraft:set_name","entity": "this","name": [{"text":"\"我死了。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 2}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"谁杀了我？\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 3}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"请杀了杀手。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 4}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"为什么杀我？\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 5}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"请为我争夺胜利。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 6}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"我死了","color":"white"},{"score":{"objective":"mm_stats_8","name":"@s"},"color":"white"},{"text":"次:(\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 7}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"123。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 8}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"为什么受伤的总是我？\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 9}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"我没死，我只是怒退游戏罢了。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 10}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"有流氓打我。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 11}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"我已经被死神选中了。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 12}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"真相：你正在读这段文字。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 13}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"我宁死得其所，也不活得庸碌。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 14}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"每个人都想上天堂，但没有人想去地狱。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 15}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"一人死亡着实是一场悲剧，但是15人死亡就代表杀手胜利了。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 16}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"真无聊。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 17}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"这么多人死了，好伤心。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 18}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"我不常死去，但我每次都会死得有尊严。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 19}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"没有人比我更懂密室杀手。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 20}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"今年某人只能得到煤炭。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 21}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"这花了你不少时间。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 22}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"太棒了，你从杀手的眼皮底下逃脱了。\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 23}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"我杀死过","color":"white"},{"score":{"objective":"mm_stats_2","name":"@s"},"color":"white"},{"text":"个人:D\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 24}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"我已经赢了","color":"white"},{"score":{"objective":"mm_stats_1","name":"@s"},"color":"white"},{"text":"把游戏OwO\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 25}}]},
+			{"function": "minecraft:set_name","entity": "this","name": [{"text":"\"我曾经捡了","color":"white"},{"score":{"objective":"mm_stats_13","name":"@s"},"color":"white"},{"text":"块金子......\"","color":"white"}],"conditions": [{"condition": "minecraft:entity_scores","entity": "this","scores":{"mm_lastwords": 26}}]},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Lastwords:1,LastwordsText:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

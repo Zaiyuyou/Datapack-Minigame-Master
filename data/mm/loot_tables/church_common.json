@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:totem_of_undying",
+		  "functions": [
+		    {
+			  "function": "set_name",
+			  "name": "§r§e不死庇护"
+			},
+		    {
+		      "function": "set_lore",
+		      "lore": ["§f可以免除一次致命伤害,并在场地内随机位置重生!","§c使用后消失","§a可以被丢弃!"]
+		    },
+		    {
+		      "function": "set_nbt",
+		      "tag": "{PropGoldMedal:1}"
+		    }
+		  ]
+		}
+		
+      ]
+    }
+  ]
+}

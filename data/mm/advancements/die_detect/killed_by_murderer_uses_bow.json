@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "mm": {
+	  "trigger": "entity_hurt_player",
+	  "conditions": {
+	    "damage": {
+		  "source_entity": {
+		    "nbt": "{Tags:[\"mm_murderer\"]}"
+		  },
+		  "type":{
+		    "is_projectile": true
+	      }
+		}
+	  }
+	}
+  },
+  "rewards": {
+    "function": "mm:game/game_events/killed_by_murderer_uses_bow"
+  }
+}

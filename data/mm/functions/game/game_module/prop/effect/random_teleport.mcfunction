@@ -1,0 +1,1 @@
+execute as @s at @e[tag=mm_spawn,limit=1,sort=random,tag=mm_actived] run tp ~ ~2 ~
