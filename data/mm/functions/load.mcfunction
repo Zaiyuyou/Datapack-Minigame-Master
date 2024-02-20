@@ -109,7 +109,7 @@ execute unless score ghost_lurk_levitation mm_settings matches 0..1 run scoreboa
 ###启用自动分配杀手数量
 scoreboard players set auto_murder_counts mm_settings 1
 ###警匪对决击杀结束数量
-scoreboard players set showdown_end mm_settings 30
+scoreboard players set showdown_end mm_settings 60
 ###缩圈模式设置
 scoreboard players set border_discount mm_settings 1000
 

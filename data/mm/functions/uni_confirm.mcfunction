@@ -87,5 +87,5 @@ tag @a remove mm_random_dead_body
 tellraw @a [{"text":"[游戏大师]  ","color":"aqua"},{"text":"v2.2.0 by NekomusumeMilk","color":"lime"},{"text":"已成功卸载!","color":"yellow"}]
 tellraw @a [{"text":"[密室杀手]  ","color":"light_purple"},{"text":"v2.2.0 by NekomusumeMilk","color":"light_purple"},{"text":"已成功卸载!","color":"yellow"}]
 tellraw @a [{"text":"[骗赞魔改]  ","color":"dark_purple"},{"text":"v0.2.9 by 在与有","color":"dark_purple"},{"text":"已成功卸载!","color":"yellow"}]
-datapack disable "file/Minigame Master [Do NOT Rename]"
-datapack disable "file/Minigame Master [Do NOT Rename].zip"
+datapack disable "file/Minigame.Master.Do.NOT.Rename"
+datapack disable "file/Minigame.Master.Do.NOT.Rename.zip"
